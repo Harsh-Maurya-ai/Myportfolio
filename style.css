@@ -1,0 +1,150 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f5f5f5;
+  color: #333;
+}
+
+/* Navbar */
+header {
+  background: #222;
+  color: #fff;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+.nav-links a:hover {
+  color: #ff9800;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('https://picsum.photos/1600/900') no-repeat center/cover;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+.hero h1 {
+  font-size: 3rem;
+}
+.hero span {
+  color: #ff9800;
+}
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  background: #ff9800;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  background: #e68900;
+}
+
+/* Sections */
+section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+.about p {
+  max-width: 600px;
+  margin: 1rem auto;
+}
+
+/* Skills */
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+.skill {
+  background: #222;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+}
+
+/* Projects */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.project-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.project-card img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.project-card h3 {
+  margin: 1rem 0 0.5rem;
+}
+
+/* Contact */
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.contact input, .contact textarea {
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.contact button {
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+footer .socials {
+  margin-top: 0.5rem;
+}
+footer a {
+  color: #ff9800;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}

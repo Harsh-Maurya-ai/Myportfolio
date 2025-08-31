@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I’m <span>Harsh Maurya</span></h1>
+      <p>A passionate Web Developer 🚀</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+    <p>I’m a passionate <strong>web developer</strong> who loves creating clean, modern, and user-friendly websites.</p>
+    <p>With a strong foundation in <strong>HTML, CSS, and JavaScript</strong>, I enjoy turning ideas into functional designs.</p>
+    <p>I have hands-on experience in building <strong>responsive websites</strong> that work seamlessly across devices.</p>
+    <p>My goal is to write <strong>efficient, maintainable, and scalable code</strong> that delivers real value.</p>
+    <p>I’m always curious to learn new technologies and improve my skills in <strong>front-end and back-end development</strong>.</p>
+    <p>Beyond coding, I focus on <strong>UI/UX principles</strong> to ensure a smooth user experience.</p>
+    <p>I enjoy working on projects that challenge me and help me grow as a developer.</p>
+    <p>Collaboration and problem-solving are my strengths—I thrive in <strong>team environments</strong>.</p>
+    <p>I believe in <strong>continuous learning</strong>, whether it’s exploring frameworks like React or improving core programming skills.</p>
+    <p>My vision is to build <strong>impactful digital solutions</strong> that combine creativity with technology.</p>
+  </div>
+    <a href="#" class="btn">Download CV</a>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div class="skill-list">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">React</div>
+      <div class="skill">C++</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <!-- Project 1 -->
+<div class="project-card">
+  <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=80" alt="Landing Page">
+  <h3>Event Landing Page</h3>
+  <p>A responsive landing page for events and courses.</p>
+  <a href="projects/Landing page/index.html" target="_blank" class="btn">Live Demo</a>
+</div>
+
+<!-- Project 2 -->
+<div class="project-card">
+  <img src="data:image/png;base64,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">
+  <h3>Calculator App</h3>
+  <p>A simple and beautiful calculator built with HTML, CSS & JS.</p>
+  <a href="projects/calculator/index.html" target="_blank" class="btn">Live Demo</a>
+</div>
+
+<!-- Project 3 -->
+<div class="project-card">
+  <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80" alt="Portfolio">
+  <h3>Portfolio Website</h3>
+  <p>The website you’re viewing right now 🎉</p>
+  <a href="index.html" class="btn">Live Demo</a>
+</div>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Your Name. All rights reserved.</p>
+    <div class="socials">
+      <a href="#">LinkedIn</a>
+      <a href="#">GitHub</a>
+      <a href="#">Instagram</a>
+    </div>
+  </footer>
+</body>
+</html>
